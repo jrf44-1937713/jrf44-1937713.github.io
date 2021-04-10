@@ -4,12 +4,12 @@ body {
 
 #p1 {
     font-family: helvetica;
-    
+    text-align: center;
 }
 
 #p2 {
     font-family: verdana;
-    
+    text-align: center;
 }
 
 .img {
@@ -32,19 +32,24 @@ h1 {
 }
 
 
-.image {
-    position: relative;
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     text-align: center;
-    color: white;
+    
   }
 
 
 .centered {
+    
+    color:yellow;
+    font-size: 24px;
+    
     position: absolute;
   top: 50%;
-  left: 18%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  color:yellow;
-    font-size: 24px;
 }
 
